@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: right;
+  font-size: 15px;
+  color: white;
+}
+
+.App-header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header nav ul li {
+  margin: 0 15px;
+}
+
+.App-header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.quiz-container {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 100px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.quiz-container input {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.quiz-container .start-btn,
+.quiz-container .try-again-btn,
+.quiz-container .go-home-btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+.result-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.result-buttons a {
+  text-decoration: none;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option-btn {
+  padding: 10px;
+  margin: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 200px;
+  transition: background-color 0.3s;
+}
+
+.option-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
+
+.next-btn {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timer {
+  font-size: 18px;
+  color: #333;
+}
+
+.home-container,
+.about-container,
+.contact-container {
+  font-size: 20px;
+  padding: 200px;
+}
+
+.home-container button {
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.home-container h1,
+.about-container h1,
+.contact-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.question-counter {
+  font-size: 18px;
+  color: #555;
+}
